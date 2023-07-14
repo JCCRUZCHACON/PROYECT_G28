@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TIENDA ACADEMLO</title>
+    <link rel="stylesheet" href="dark.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="./src/main.js" defer></script>
+</head>
+
+<body>
+    <header class="content__navbar">
+        <nav class="navbar nav">
+            <img src="src/logo_bg.png" class="nav__logo">
+            
+        <div class="nav__links">
+            <a href="#home" class="nav__link">HOGAR</a>
+            <a href="#products" class="nav__link">PRODUCTOS</a>
+            <a href="#contact" class="nav__link nav__link--active">CONTACTO</a> 
+        </div>
+        <div>
+            <i class='bx bx-cart bx-tada-hover icon__cart'>
+                <span class="ball"></span>
+            </i>
+        </div>
+        </nav>
+
+        <div class="dam">
+            <ul>
+                <li>
+                <button class="switchDark active" id="switch">
+                <span><i class='bx bx-sun' ></i></span>
+                <span><i class='bx bx-moon' ></i></span>
+                </li>
+            </ul>
+        </div>
+        
+    </header>
+    
+    
+    <section class="home__scrollPy" id="home">
+        <img src="src/sueter__bg.png" class="home__suet">
+    <div class="home_body">
+        <h2 class="home_body-title">Nueva sudadera <br> COLECCIONES 2022</h2>
+        <p class="home_body-par">Última llegada de la nueva sudadera Hanes Midweight Crewneck importada
+        de La <br>serie 2022, con un diseño moderno.</p>
+        <p class="home_body-price">$ 14,00</p>
+        <a href="#products" class="home_body-btn">Mostrar más</a>
+    </div>
+    </section>
+
+    <section id="products">
+         <div class="container">
+            <div class="products"></div>
+        </div>
+        
+        <div class="cart">
+            <div class="cart__products"></div>
+            <div class="cart__total">
+            <div class="cart__total__info">
+                <p>units <span id="totalProducts"></span></p>
+                <p>total $ <span id="totalPrice"></span></p>
+        </div>
+        
+        <button class="btn__buy">comprar</button>
+    </div>
+    </div>
+    </section>
+
+
+    <section>
+        <div id="miModal" class="modal">
+            <div class="flex" id="flex">
+            <div class="contenido-modal">
+            <div class="modal-header flex">
+                <span class="close" id="close">&times;</span>
+        </div>
+            <div class="modal-body">
+         </div>
+            <div class="footer">
+        </div>
+     </div>
+    </div>
+    </div>
+    </section>
+
+
+    <footer>
+    <section class="content_footer container" id="contact">
+            <div class="footer_info">
+                <h3 class="footer_info-title">NUESTRA INFORMACION</h3>
+                <ul>
+                    <li><a href="#">Toluca - México</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_info">
+                <h3 class="footer_info-title">SOBRE NOSOTROS</h3>
+                <ul>
+                    <li><a href="#">Support Center</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Copy Right</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_info">
+                <h3 class="footer_info-title">PRODUCTO</h3>
+                <ul>
+                    <li><a href="#">Hoodies</a></li>
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Sweatshirts</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_info">
+                <h3 class="footer_info-title">Social</h3>
+                <ul class="footer_link-social">
+                    <li>
+                    <a href="#">
+                    <i class="bx bxl-facebook"></i>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <i class="bx bxl-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                    <a href="#">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    </li>
+                </ul>
+        </div>
+    </section>
+
+    <p><b>JUAN CARLOS CRUZ CHACON <a href="#">repositorio</a> confeccionesmc2018@gmail.com</b></p>
+    <p><b><a href="https://services-academlo-shopping.onrender.com/" target="_blank">API CONSUMIDA</b></a></p>
+    </footer>
+    
+</body>
+</html>
+
+
+
